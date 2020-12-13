@@ -23,8 +23,8 @@
 #' @examples FRED_DATA("Your_FRED_APIkey","Data_Query","1970-01-01","2020-12-31")
 FRED_DATA <- function(FRED_APIkey,
                       FRED_series_id,
-                      FRED_observation_start <- "1970-01-01",
-                      FRED_observation_end <- "2020-12-31"){
+                      FRED_observation_start = "1970-01-01",
+                      FRED_observation_end = "2020-12-31"){
 
   FRED_URL <- "https://api.stlouisfed.org/fred/series/observations"
 
